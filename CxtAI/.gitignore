@@ -1,9 +1,8 @@
-# Ignore virtual environments
+
 myenv/
 *.pyc
 *.pyo
 *.pyd
 __pycache__/
 
-# Ignore other unnecessary files
 *.log
