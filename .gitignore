@@ -1,5 +1,6 @@
 
 myenv/
+venv/
 .vscode
 *.pyc
 *.pyo
@@ -7,3 +8,4 @@ myenv/
 __pycache__/
 
 *.log
+*_test.py

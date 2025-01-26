@@ -72,12 +72,9 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
 
-        {% if your_age %}
+        {% if Final_Analysis %}
         <div class="result-box mt-4">
             <h3>Your Data:</h3>
-            <p><strong>Age:</strong> {{ your_age }}</p>
-            <p><strong>Height:</strong> {{ your_height }}</p>
-            <p><strong>Salary:</strong> {{ your_salary }}</p>
             <p><strong>Final Analysis:</strong> {{ Final_Analysis }}</p>
         </div>
         {% endif %}
